@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>apollo hospitals</title>
+    </head>
+    <body>
+        <header>
+            <center>
+                <h1>
+                    <font color="orange"> Apollo Hospitals 
+
+                    </font>
+                </h1>
+            <br>
+            <a href="home.html">About Apollo</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="branches.html">Apollo Branches</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="services.html">Apollo Services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="doctors.html">Our doctors</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="labs.html">Our Labs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Doctor Signup.html">Doctor Signup</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Doctor Signin.html">Doctor Signin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Patient SignUp</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Patient Signin.html">Patient Signin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contact.html"> Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="feedback.html">Feedback</a>
+            </center>
+
+
+        </header>
+        <hr>
+        <br><br><br>
+        <form action="server1" method="post" name="form1" >
+            <table align="center" cellspacinng="100PX" cellpadding="10px" bgcolor="silver">
+                <caption><center><h1> PatientRegistrationForm</h1></center></caption>
+                <tr>
+                    <td>
+                        <label for="1">Patient's Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name1" id="1" placeholder="First Name">
+                        <input type="text" name="name1" id="1" placeholder="Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="2">Gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="name2" id="2" value="male">Male
+                        <input type="radio" name="name2" id="2" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="3">Mobile Number:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="name3" id="3" placeholder="Mobile Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="4">Date of Birth:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="name4" id="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="5">Marital Status:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="name5" id="5" value="single">Single
+                        <input type="radio" name="name5" id="5" value="married">Married
+                        <input type="radio" name="name5" id="5" value="divorced">Divorced
+                        <input type="radio" name="name5" id="5" value="widow">Widow
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="6">Patient's Address:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name6" id="6" placeholder="Street Address">
+                        <br><br>
+                        <input type="text" name="name6" id="6" placeholder="City">
+                        <input type="text" name="name6" id="6" placeholder="State">
+                        <br><br>
+                        <input type="text" name="name6" id="6" placeholder="Postal/Zip Code">
+                        <select name="name6" id="6">
+                            <option value="country">Country</option>
+                            <option value="india">India</option>
+                            <option value="England">Japan</option>
+                            <option value="italy">Italy</option>
+                            <option value="New Zealand">China</option>
+                            <option value="russia">Russia</option>
+                            <option value="france">France</option>
+                            <option value="united states">United States</option>
+                            <option value="australia">Australia</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="7">Insurance Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name7" id="7">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="8">Past medical history:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="name8" id="8" value="anemia">Anemia 
+                        <br><br>
+                        <input type="checkbox" name="name8" id="8" value="asthma">Asthma 
+                        <br><br>
+                        <input type="checkbox" name="name8" id="8" value="bronchitis">Bronchitis
+                        <br><br>
+                        <input type="checkbox" name="name8" id="8" value="chickenpox">Chickenpox
+                        <br><br>
+                        <input type="checkbox" name="name8" id="8" value="diabetes">Diabetes
+                        <br><br>
+                        <input type="checkbox" name="name8" id="8" value="ulcer">High Blood Pressure
+                        <br><br>
+                        <input type="checkbox" name="name8" id="8" value="Thyroid Disease">Low Blood Pressure
+                        <br><br>
+                        <input type="checkbox" name="name8" id="8" valu="others">Others
+                    </td>
+                </tr>
+                <tr><td>
+                    <label for="id9">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type="password" id="id9" name="name9" placeholder="password"></td></tr>
+                    <tr>
+                    <td>
+                        <label for="id10"> Confirm password:</label></td>
+                       <td><input type="password" id="id4" name="name4" placeholder="password"></td>
+    
+                    </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <td>
+                            <input type="submit" value="Register">&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="reset" value="clear">
+                        </td>
+
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td><label for="id13">Already Registered? </label></td>
+                 <td><a href="Patient Signin.html"> Click here to Login</a>
+                </td>
+            </tr>    
+            </table>
+        </form>
+        <br><br><br>
+        <hr>
+       
+        <footer><center><font size="4px" color="skyblue">copyright@360Digrii</font></center></footer>    
+    </body>
+    </html>
